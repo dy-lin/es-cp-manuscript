@@ -24,35 +24,40 @@
 \makeatother
 
 \title{\textbf{Complete chloroplast genome sequence of \textit{Picea engelmannii}, isolate Se404-851 from western Canada\newline}}
-\author{Diana Lin, Lauren Coombe, Kristina Gagalova, Rene L. Warren, Stewart A. Hammond, Heather Kirk, Pawan Pandoh, Yongjun Zhao, Richard A. Moore, Andrew J. Mungall, Carol Ritland, Barry Jaquish, Jean Bousquet, Steven J.M. Jones, Joerg Bohlmann, Inanc Birol\newline}
+\author{Diana Lin, Lauren Coombe, Kristina Gagalova, Ren\'{e} L. Warren, Stewart A. Hammond, Heather Kirk, Pawan Pandoh, Yongjun Zhao, Richard A. Moore, Andrew J. Mungall, Carol Ritland, Barry Jaquish, Jean Bousquet, Steven J.M. Jones, Joerg Bohlmann, Inanc Birol\newline}
 \date{March 20, 2019}
 
 \begin{document}
 \maketitle
 \begin{abstract}
+
+
 Engelmann spruce (\textit{Picea engelmannii}) is a conifer found primarily on the west coast of North America. Here, we present the complete chloroplast genome sequence of \textit{Picea engelmannii}, isolate Se404-851. This chloroplast sequence will benefit future conifer genomic research and contribute resources to further species conservation efforts.
 \end{abstract}
 
 \section*{Genome Announcement}
-We sequenced, assembled and annotated the complete chloroplast genome of \textit{Picea engelmannii} (isolate Se404-851). Engelmann spruce, the native host of the white pine weevil, has the highest susceptibility to insect infestation among the \textit{Picea} genus (1). Research into the adaptation of \textit{P. engelmannii} to insect resistance is key to help maintain the health of our forests.
+We sequenced, assembled, and annotated the complete chloroplast genome of \textit{Picea engelmannii} (isolate Se404-851). Engelmann spruce, the native host of the white pine weevil, has the highest susceptibility to insect infestation among the \textit{Picea} genus (1). Research into the adaptation of \textit{P. engelmannii} to insect resistance is key to help maintain the health of our forests.
 \newline
 \par
 A needle tissue sample was collected from a 13-year-old Engelmann spruce grown at the Kalamalka Forestry Centre in British Columbia (36\degree17'60"N, 105\degree24'0"W; elevation: 298m), planted from a seed from Don Fernando Mountain, New Mexico (50\degree14'38.4"N 119\degree16'40.8"W; elevation of 450m). The sample was sequenced at Canada’s Michael Smith Genome Sciences Centre.
 \newline
 \par
-To sequence the sample, a 900bp whole genome library was constructed following the previously described protocol (2-3) with modifications. Briefly, 5 $\mu$g of genomic DNA was subjected to shearing by sonication (Covaris LE220) using a Duty Factor of 5 and Peak Incident Power of 450 for 70 seconds.  The sonicated DNA products were fractionated in a 6\% PAGE gel to recover fragments greater than 700-bp for library preparation. These PCR-Free libraries were sequenced with paired-end 150 base reads on the Illumina HiSeqX platform using V4 chemistry according to manufacturer recommendations.
+To sequence the sample, a 900bp whole genome library was constructed following the previously described protocol (2-3) with minor modifications. Briefly, 5 $\mu$g of genomic DNA was subjected to shearing by sonication (Covaris LE220) using a Duty Factor of 5 and Peak Incident Power of 450 for 70 seconds. The sonicated DNA products were fractionated in a 6\% PAGE gel to recover fragments greater than 700-bp for library preparation. These PCR-Free libraries were sequenced with paired-end 150 base reads on the Illumina HiSeqX platform using V4 chemistry according to manufacturer recommendations.
 \newline
 \par
-The chloroplast reads were assembled by subsampling the reads to subsets of 0.75, 1.5, 3, 6, 12, 25, 46 million read pairs, then assembling each subset with ABySS v2.1.1 (4) (\textit{k}=128, \textit{kc}=3). The ABySS assembly of the 3M read pair subset resulted in a single 123,601-bp contig that aligned to the reference chloroplast sequence (\textit{Picea glauca} admix genotype PG29, NCBI accession NC\_028594), with zero misassemblies and no internal gaps, based on QUAST v5.0.0 (5) analysis.
+The chloroplast reads were assembled by subsampling the whole genome shotgun sequencing reads to subsets of 0.75, 1.5, 3, 6, 12, 25, 46 million read pairs, then assembling each subset with ABySS v2.1.1 (4) (\textit{k}=128, \textit{kc}=3). The ABySS assembly of the 3M read pair subset resulted in a single 123,601-bp contig that aligned to the reference chloroplast sequence (\textit{Picea glauca} admix genotype PG29, NCBI accession NC\_028594), with zero misassemblies and no internal gaps, based on QUAST v5.0.0 (5) analysis.
 \newline
 \par
-For consistency with previously published conifer chloroplast genomes, we modified our assembly to match the strand and start position of the white spruce admix (PG29) chloroplast genome assembly using BLAST v2.7.1 (6). To ensure there were no missing sequences at the ends of our assembly we introduced a gap at the end, circularized the sequence and ran Sealer (7), closing the ‘end’ gap and removing overlapping sequences. Finally, the final assembly was polished using Pilon v1.22 (8).
+For consistency with previously published conifer chloroplast genomes, we modified our assembly to match the strand and start position of the white spruce admix (PG29) chloroplast genome assembly using BLAST v2.7.1 (6). To ensure there were no missing sequences at the ends of our assembly we introduced a gap at the end, circularized the sequence, and ran Sealer (7), closing the ‘end’ gap, and removing overlapping sequences. Finally, the resulting assembly was polished using Pilon v1.22 (8).
 \newline
 \par
-The complete \textit{P. engelmannii} Se404-851 chloroplast genome is 123,542-bp long, with 38.74\% GC content. Using GeSeq (9) and other \textit{Picea} chloroplast genomes as references (accessions below), we annotated 114 genes: 74 protein-coding, 36 tRNA-coding and 4 rRNA-coding. We note that 4 genes (\textit{rps12}, \textit{petB}, \textit{petD}, and \textit{rpl16}) were manually annotated. OGDRAW v1.2 (10) generated the map in Figure \ref{fig:ogdraw}. The introduction of this new chloroplast genome will benefit conifer genomic research and inform future evolutionary studies.
+The complete \textit{P. engelmannii} Se404-851 chloroplast genome is 123,542-bp long, with 38.74\% GC content. Using GeSeq (9) and other \textit{Picea} chloroplast genomes as references (accessions below), we annotated 114 genes: 74 protein-coding, 36 tRNA-coding and 4 rRNA-coding. We note that four genes (\textit{rps12}, \textit{petB}, \textit{petD}, and \textit{rpl16}) in this list were manually annotated. We used OGDRAW v1.2 (10) to generate the map in Figure \ref{fig:ogdraw}.
+\newline
+\par
+The introduction of this new chloroplast genome will benefit conifer genomic research and inform future evolutionary studies.
 \newline
 \newline
-\textbf{Accession number(s).} The complete chloroplast genome sequence of \textit{Picea engelmannii}, isolate Se404-851 is available under Genbank acession \href{https://www.ncbi.nlm.nih.gov/nuccore/MK241981}{MK241981} and the raw reads in the SRA under SRX5070635. The annotation used as references were \textit{Picea abies} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_021456}{NC\_021456}), \textit{Picea asperata} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_032367}{NC\_032367}), \textit{Picea glauca} isolate PG29 (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_028594}{NC\_028594}), \textit{Picea morrisonicola} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_016069}{NC\_016069}), and \textit{Picea sitchensis} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_011152}{NC\_011152}).
+\textbf{Accession number(s).} The complete chloroplast genome sequence of \textit{Picea engelmannii}, isolate Se404-851 is available under Genbank acession \href{https://www.ncbi.nlm.nih.gov/nuccore/MK241981}{MK241981}, and the raw reads in the SRA under SRX5070635. The annotation used as references were from \textit{Picea abies} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_021456}{NC\_021456}), \textit{Picea asperata} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_032367}{NC\_032367}), \textit{Picea glauca} isolate PG29 (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_028594}{NC\_028594}), \textit{Picea morrisonicola} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_016069}{NC\_016069}), and \textit{Picea sitchensis} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_011152}{NC\_011152}).
 \section*{Figures and Data}
 \begin{figure}[h]
 \centering

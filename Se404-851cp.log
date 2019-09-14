@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.18)  14 SEP 2019 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.18)  14 SEP 2019 12:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -353,42 +353,42 @@ arning (ext4): destination with the same identifier (name{page.1}) has been alr
 eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 \end{abstract}
+l.36 \end{abstract}
                     [1]
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 42.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+LaTeX Font Info:    Try loading font information for U+msb on input line 42.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
@@ -396,33 +396,40 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \section
-             *{Figures and Data} [1]
+l.57 T
+      he introduction of this new chloroplast genome will benefit conifer ge...
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
 <Se404-851.png, id=31, 1204.5pt x 1204.5pt>
 File: Se404-851.png Graphic file (type png)
 <use Se404-851.png>
-Package pdftex.def Info: Se404-851.png  used on input line 59.
+Package pdftex.def Info: Se404-851.png  used on input line 64.
 (pdftex.def)             Requested size: 322.50346pt x 322.49924pt.
- [2 <./Se404-851.png>] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
 
-(./Se404-851cp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] [3 <./Se404-851.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
+ (./Se404-851cp.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `Se404-851cp.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 6974 strings out of 492616
- 106293 string characters out of 6128982
- 203162 words of memory out of 5000000
- 10805 multiletter control sequences out of 15000+600000
+ 6975 strings out of 492616
+ 106301 string characters out of 6128982
+ 203171 words of memory out of 5000000
+ 10806 multiletter control sequences out of 15000+600000
  10074 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,5n,39p,825b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,5n,39p,831b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -431,7 +438,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Se404-851cp.pdf (6 pages, 245833 bytes).
+Output written on Se404-851cp.pdf (6 pages, 245989 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream

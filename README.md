@@ -1,7 +1,7 @@
 # _Picea engelmannii_ chloroplast manuscript
 MRA Manuscript draft for Engelmann spruce (_Picea engelmannii_, isolate Se404-851) chloroplast
 
-Published in Microbiology Resource Announcements (MRA): https://mra.asm.org/content/8/24/e00382-19
+Published in _Microbiology Resource Announcements_ (MRA): https://mra.asm.org/content/8/24/e00382-19
 
 For annotation process: https://github.com/bcgsc/picea-engelmannii-plastid
 
